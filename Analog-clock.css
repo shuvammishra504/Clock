@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 200vw;
+}
+
+.Analog{
+    background: #EDF1F4;
+}
+
+.digital{
+    height: 100vh;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 150%);
+    width: 100vw;
+}
+
+.background-image{
+    height: 90vh;
+}
+
+.full-svg{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+}
+
+.minute-hand{
+    transform-origin: 955px 580px;
+}
+
+.hour-hand{
+    transform-origin: 955px 580px;
+}
+
+.second-hand{
+    transform-origin: 955px 580px;
+
+}
+
+header{
+    /* background: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding-left: 1rem;
+}
+
+.hamburger-div{
+    height: 45px;
+    width: 45px;
+    display: flex;  
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger-div:hover{
+    background: #d6daddc9;
+}
+
+.hamburger{
+    height: 20px;
+    margin-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    height: 25px;
+}
+
+.AmPmDiv{
+    border-radius: 15px;
+    height: 15vh;
+    width: 7%;
+    background: #1D262B;
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 5px solid #D8DEDF;
+}
