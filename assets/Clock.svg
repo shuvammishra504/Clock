@@ -1,15 +1,15 @@
-<svg width="1849" height="1080" viewBox="0 0 1849 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg class="background-image" width="1849" height="1080" viewBox="0 0 1849 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="Clock">
 <g id="clock">
 <rect id="nude clock 1" width="1849" height="1080" fill="url(#pattern0)"/>
 </g>
-<g id="hour hand">
+<g class="hour-hand" id="hour hand">
 <line id="Line 1" x1="6.5" y1="-6.5" x2="179.537" y2="-6.5" transform="matrix(0.0196995 -0.999806 0.999792 0.0203943 960.132 581.001)" stroke="#ADB7B9" stroke-width="13" stroke-linecap="round"/>
 </g>
-<g id="second hand">
+<g class="second-hand" id="second hand">
 <line id="Line" x1="951.874" y1="578.48" x2="954.091" y2="302.489" stroke="#ACB6B8" stroke-width="5" stroke-linecap="round"/>
 </g>
-<g id="minute hand">
+<g class="minute-hand" id="minute hand">
 <line id="Line 3" x1="954.678" y1="575.454" x2="956.542" y2="353.642" stroke="#ACB6B8" stroke-width="11" stroke-linecap="round"/>
 </g>
 </g>
