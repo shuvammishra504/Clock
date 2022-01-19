@@ -1,47 +1,71 @@
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-body{
-    max-height: 90vh;
-}
-
 main{
-    max-height: 100vh;
     display: flex;
-    width: 200vw;
-    scroll-snap-type: x mandatory;
-}
-
-section{
-    scroll-snap-align: start;
-    overflow-x: scroll;
+    flex-direction: column;
 }
 
 .Analog{
-    background: #EDF1F4;
-    height: 97.7vh;
+    height: 100vh;
+    background: #edf1f4;
 }
 
-.digital{
-    height: 97.7vh;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 150%);
-    width: 100vw;
+header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 1.5em;
+}
+
+.hamburger-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.hamburger{
+    height: 1.5em;
+}
+
+.title{
+    height: 2.5em;
+    width: 70%;
 }
 
 .background-image{
     height: 100vh;
+    width: 100%;
 }
 
 .full-svg{
-    width: 100vw;
-    height: 90vh;
+    height: 100vh;
+    width: 100%;
+}
+
+.AmPmDiv{
+    border-radius: 15px;
+    height: 15%;
+    width: 7%;
+    background: #1D262B;
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: red; */
+    color: white;
+    border: 5px solid #D8DEDF;
+}
+
+.AmPm{
+    font-size: 2vw;
 }
 
 .minute-hand{
@@ -54,54 +78,57 @@ section{
 
 .second-hand{
     transform-origin: 955px 580px;
-
 }
 
-header{
-    /* background: rebeccapurple; */
-    display: flex;
-    align-items: center;
-    height: 10vh;
-    padding-left: 1rem;
-    position: absolute;
+.digital{
+    height: 100vh;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 150%);
 }
 
-.hamburger-div{
-    height: 45px;
-    width: 45px;
-    display: flex;  
-    align-items: center;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: all 0.3s ease-in-out;
+.digital-clock{
+    height: 100%;
+    width: 100%;
 }
 
-.hamburger-div:hover{
-    background: #d6daddc9;
-}
-
-.hamburger{
-    height: 20px;
-    margin-right: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.title{
-    height: 25px;
-}
-
-.AmPmDiv{
-    border-radius: 15px;
-    height: 15vh;
-    width: 7%;
-    background: #1D262B;
-    position: absolute;
-    bottom: 15%;
-    right: 20%;
+.time-container{
+    height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     color: white;
-    border: 5px solid #D8DEDF;
+    height: 20%;
+    width: 20%;
+    /* background: rebeccapurple; */
+}
+
+.time h3{
+    font-size: 4.5rem;
+}
+
+.hours, .minute, .second, .semi{
+    color: white;
+    border-radius: 10px;
+    font-size: 1em;
+    height: 15vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2.5rem;
+}
+
+.second{
+    color: rgb(189, 189, 189);
+    padding-right: 20px;
+}
+
+.amPm{
+    font-size: 2em;
 }

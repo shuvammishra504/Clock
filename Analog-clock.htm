@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/Analog-clock.css">
+    <link rel="stylesheet" href="./assets/Analog-clock.css">
     <title>Analog-clock</title>
 </head>
 <body>
@@ -12,9 +12,9 @@
         <section class="Analog">
             <header>
                 <div class="hamburger-div">
-                    <img class="hamburger" src="/assets/hamburger.png" alt="hamburger">
+                    <img class="hamburger" src="./assets/hamburger.png" alt="hamburger">
                 </div>
-                <img class="title" src="/assets/AnalogClock.png" alt="title">
+                <img class="title" src="./assets/AnalogClock.png" alt="title">
             </header>
             <div class="full-svg">
                 <svg class="background-image" width="1849" height="1080" viewBox="0 0 1849 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -48,13 +48,25 @@
         <section class="digital">
             <header>
                 <div class="hamburger-div">
-                    <img class="hamburger" src="/assets/Whtie hamburger.png" alt="hamburger">
+                    <img class="hamburger" src="./assets/Whtie hamburger.png" alt="hamburger">
                 </div>
-                <img class="title" src="/assets/DigitalClock.png" alt="title">
+                <img class="title" src="./assets/DigitalClock.png" alt="title">
             </header>
+            <div class="digital-clock">
+                <div class="time-container">
+                    <div class="time">
+                        <h3 class="hours"></h3>
+                        <h3 class="semi">:</h3>
+                        <h3 class="minute"></h3>
+                        <h3 class="semi">:</h3>
+                        <h3 class="second"></h3>
+                        <h3 class="amPm"></h3>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-        <script src="/assets/Analog-clock.js"></script>
+        <script src="./assets/Analog-clock.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>
 </html>
